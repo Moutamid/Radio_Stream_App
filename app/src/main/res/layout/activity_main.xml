@@ -14,7 +14,9 @@
         android:layout_height="wrap_content"
         android:padding="12dp"
         android:text="@string/app_name"
-        android:textSize="22sp"
+        android:textColor="#c2a475"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
     <com.google.android.material.card.MaterialCardView
@@ -30,9 +32,9 @@
 
         <ImageView
             android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_height="350dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/logo" />
+            android:src="@drawable/logo2" />
 
     </com.google.android.material.card.MaterialCardView>
 
@@ -85,7 +87,7 @@
             app:cardCornerRadius="12dp"
             android:layout_margin="10dp"
             app:cardElevation="6dp"
-            app:cardBackgroundColor="@color/white"
+            app:cardBackgroundColor="#c4a576"
             app:strokeWidth="0dp">
 
             <ImageView
